@@ -31,7 +31,7 @@ submitBtn.addEventListener("click", async (event) => {
                 course : studentCourse.value,
                 email : studentEmail.value,
             }])
-            console.log(error)
+            
         Swal.fire({
             title: "Added Successfully!",
             icon: "success",
