@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Form</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="navLinks">
+                <!-- <li><a href="./allstudent.html"> Register</a></li> -->
+            
+                <li><a href="./allstudent.html"> All Students</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+
+    <form id="form">
     <label>
         StudentName
         <input type="text" id="name">
@@ -26,11 +40,10 @@
     </label>
     <br>
     <br>
-
     <button id="btn">Submit</button>
+</form>
 
-
-
+   
      <!-- supabase  -->
       <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: bisque;
+    padding: 20px 30px;
+
+}
+.navLinks {
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks li a{
+    text-decoration: none;
+}
+
+#form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#btn {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+/* inner html */
+
+.main-heading{
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+#student {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px 20px;
+    
+}
+
+.student-cards{
+    background-color: aqua;
+    padding: 30px 60px;
+    
+}
+
+
+.edit-btn {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.delete-btn {
+    background-color: #ff4d5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    opacity: 0.8;
+}
