@@ -48,7 +48,7 @@ submitBtn && submitBtn.addEventListener("click", async (event) => {
 });
 
 // ye page jbh chly ga apki file all student.html wali hoge
-if (window.location.pathname == "/allstudent.html") {
+if (window.location.pathname.endsWith ("/allstudent.html") ){
     const getAllStudents = async () => {
         try {
             //const {data, error } = await client.from("student-data").select().eq("name", "tayyaba"); for single row syntax
@@ -104,7 +104,7 @@ if (window.location.pathname == "/allstudent.html") {
                     .from('student_data')
                     .update(updatedData)
                     .eq('id', id)
-                // getAllStudents();
+                getAllStudents();
             };
 
             window.removeStudent = async (studentId) => {
